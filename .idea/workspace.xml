@@ -27,9 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4533a557-697f-47f2-a9cf-91651fa81f23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02_Python入门/code/01.基本概念.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02_Python入门/code/01.基本概念.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02_Python入门/code/02.基本语法.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02_Python入门/code/02.基本语法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02_Python入门/code/03.变量和标识符.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02_Python入门/code/03.变量和标识符.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02_Python入门/code/04.数值.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02_Python入门/code/04.数值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02_Python入门/code/05.字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02_Python入门/code/05.字符串.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +70,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\MyCode\PythonStudy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03.变量和标识符">
+  <component name="RunManager" selected="Python.05.字符串">
     <configuration name="01.基本概念" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,8 +144,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="04.数值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_02_Python入门/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_02_Python入门/code/04.数值.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05.字符串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_02_Python入门/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_02_Python入门/code/05.字符串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.05.字符串" />
+        <item itemvalue="Python.04.数值" />
         <item itemvalue="Python.03.变量和标识符" />
         <item itemvalue="Python.02.基本语法" />
         <item itemvalue="Python.01.基本概念" />
@@ -172,7 +217,7 @@
       <workItem from="1587298567371" duration="230000" />
       <workItem from="1587298900046" duration="2995000" />
       <workItem from="1587302168528" duration="681000" />
-      <workItem from="1587303604914" duration="2649000" />
+      <workItem from="1587303604914" duration="4881000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1587299217789</created>
@@ -188,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587302833052</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1587306412922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587306412923</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,10 +294,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1587299298632" />
-    <state x="167" y="46" width="1159" height="773" key="CommitChangelistDialog2" timestamp="1587302827455">
+    <state x="167" y="46" width="1159" height="773" key="CommitChangelistDialog2" timestamp="1587306403961">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="167" y="46" width="1159" height="773" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1587302827455" />
+    <state x="167" y="46" width="1159" height="773" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1587306403961" />
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1587299157865">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -258,22 +310,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="546" y="127" key="Github.UntrackedFilesDialog/0.0.1440.860@0.0.1440.860" timestamp="1587281103994" />
-    <state width="1397" height="244" key="GridCell.Tab.0.bottom" timestamp="1587305472460">
+    <state width="1397" height="154" key="GridCell.Tab.0.bottom" timestamp="1587308558598">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="244" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587305472460" />
-    <state width="1397" height="244" key="GridCell.Tab.0.center" timestamp="1587305472460">
+    <state width="1397" height="154" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587308558598" />
+    <state width="1397" height="154" key="GridCell.Tab.0.center" timestamp="1587308558598">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="244" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1587305472460" />
-    <state width="1397" height="244" key="GridCell.Tab.0.left" timestamp="1587305472460">
+    <state width="1397" height="154" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1587308558598" />
+    <state width="1397" height="154" key="GridCell.Tab.0.left" timestamp="1587308558598">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="244" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1587305472460" />
-    <state width="1397" height="244" key="GridCell.Tab.0.right" timestamp="1587305472460">
+    <state width="1397" height="154" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1587308558598" />
+    <state width="1397" height="154" key="GridCell.Tab.0.right" timestamp="1587308558598">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="244" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1587305472460" />
+    <state width="1397" height="154" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1587308558598" />
     <state width="1397" height="266" key="GridCell.Tab.1.bottom" timestamp="1587302164934">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -290,19 +342,21 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1397" height="266" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1587302164934" />
-    <state x="221" y="74" key="SettingsEditor" timestamp="1587303701350">
+    <state x="221" y="74" key="SettingsEditor" timestamp="1587307336458">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1587303701350" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1587302835851">
+    <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1587307336458" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1587306428520">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1587302835851" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1587306428520" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonStudy$03_.coverage" NAME="03.变量和标识符 Coverage Results" MODIFIED="1587305355575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02_Python入门/code" />
     <SUITE FILE_PATH="coverage/PythonStudy$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1587281333482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/code" />
+    <SUITE FILE_PATH="coverage/PythonStudy$04_.coverage" NAME="04.数值 Coverage Results" MODIFIED="1587307364593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02_Python入门/code" />
     <SUITE FILE_PATH="coverage/PythonStudy$01_.coverage" NAME="01.基本概念 Coverage Results" MODIFIED="1587303968304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02_Python入门/code" />
+    <SUITE FILE_PATH="coverage/PythonStudy$05_.coverage" NAME="05.字符串 Coverage Results" MODIFIED="1587308650696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02_Python入门/code" />
     <SUITE FILE_PATH="coverage/PythonStudy$02_.coverage" NAME="02.基本语法 Coverage Results" MODIFIED="1587305028103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02_Python入门/code" />
   </component>
 </project>
