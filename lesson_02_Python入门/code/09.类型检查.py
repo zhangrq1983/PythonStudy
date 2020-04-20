@@ -1,3 +1,22 @@
+
+a = 123
+b = '123'
+
+print('a =', a)
+print('b =', b)
+
+c = type(123)
+print('c =', c)
+
+c = type(b)
+print('c =', c)
+
+print(type(1))
+print(type(1.5))
+print(type(True))
+print(type('hello'))
+print(type(None))
+
 # 通过类型检查，可以检查只能值（变量）的类型
 
 a = 123 # 数值

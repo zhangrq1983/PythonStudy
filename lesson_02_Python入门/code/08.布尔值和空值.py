@@ -1,3 +1,17 @@
+
+a = True
+a = False
+print('a =', a)
+
+print(1+True)
+
+print(1+False)
+
+a = None
+
+print(a)
+
+
 # 布尔值（bool）
 # 布尔值主要用来做逻辑判断
 # 布尔值一共有两个 True 和 False

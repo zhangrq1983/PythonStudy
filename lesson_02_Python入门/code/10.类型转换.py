@@ -1,3 +1,77 @@
+
+# print(id(123))
+# print(id(124))
+# print(type(1))
+#
+# a = 10
+# print(id(a))
+# b = a
+# print(id(b))
+# a = 456
+# print(id(a))
+# print(id(b))
+
+#
+# # c = 'hello'
+# # d = 123
+# # print(c + d)
+#
+# e = True
+# print('e = ', e)
+# print(type(e))
+#
+# e = int(e)
+# print('e = ', e)
+# print(type(e))
+#
+# e = False
+# print(type(e))
+# e = int(e)
+# print('e = ', e)
+# print(type(e))
+
+# e = 10
+# e = '123'
+# e = int(e)
+# print('e = ', e)
+# print(type(e))
+#
+# e = 11.6
+# e = int(e)
+# print('e = ', e)
+# print(type(e))
+
+# e = '11.5'
+# e = None
+# e = int(e)
+
+# e = 1
+# e = float(e)
+
+# e = False
+# e = float(e)
+
+# e = 123
+# e = str(e)
+
+# print('e = ', e)
+# print(type(e))
+
+# f = 456
+# print('f = ' + str(f))
+
+e = 1
+e = 0
+e = ''
+e = None
+e = bool(e)
+
+print('e = ', e)
+# print(type(e))
+print('------------------')
+
+
+
 # 类型转换四个函数 int() float() str() bool()
 # int() 可以用来将其他的对象转换为整型
 # 规则：

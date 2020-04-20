@@ -1,3 +1,21 @@
+
+name = 'sunwukong'
+
+print('huanying ' + name + ' guanglin!')
+
+print('huanying ', name,' guanglin!')
+
+print('huanying %s guanglin!' %name)
+
+print(f'huanying {name} guanglin!')
+
+a = 'abc'
+
+a = a * 20
+
+print(a)
+
+
 # 创建一个变量来保存你的名字
 name = '孙悟空'
 

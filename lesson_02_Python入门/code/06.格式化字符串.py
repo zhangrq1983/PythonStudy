@@ -1,3 +1,37 @@
+a = 'hello'
+
+a = 'hello' + 'haha' + '哈哈'
+
+# a = 123
+
+a = 'hello %s' % 'sunwukong'
+
+a = 'hello %s nihao %s' % ('tom', 'sunwukong')
+
+a = 'hello%3s' % 'ab'
+
+a = 'hello %3.5s' % 'abcdefg'
+
+a = 'hello %s' %123.4
+
+a = 'hello %.1s' %123.4
+
+a = 'hello %.2f' %123.456
+
+a = 'hello %d' %123.456
+
+a = '呵呵'
+b = 123
+print('a = %s' %b)
+
+a = f'hello {a} {b}'
+
+c = f'hello {a}'
+
+print(f'a = {a}')
+
+print('a = ' + a)
+
 # 格式化字符串
 a = 'hello'
 
