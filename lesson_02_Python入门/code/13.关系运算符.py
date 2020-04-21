@@ -1,3 +1,38 @@
+
+a = 10 > 20
+a = 30 > 20
+
+a = 30 < 20
+a = 10 >= 10
+
+a = 2 > True
+
+# a = 2 > '1'
+a = '2' > '1'
+a = '2' > '11'
+a = 'a' > 'b'
+a = 'c' > 'd'
+a = 'ab' > 'b'
+
+a = int('2') > int('11')
+
+a = 1 == 1
+
+a = 'hello' == 'hello'
+
+a = 'abc' == 'bcd'
+
+a = 'abc' != 'bcd'
+
+a = 1 == True
+
+a = 1 is True
+a = 1 is not True
+
+print('a = ', a)
+
+print(id(1), id(True))
+
 # 关系运算符
 # 关系运算符用来比较两个值之间的关系，总会返回一个布尔值
 # 如果关系成立，返回True，否则返回False
@@ -41,5 +76,5 @@ result = 'abc' != 'bcd' # True
 result = 1 == True # True
 result = 1 is True # False
 result = 1 is not True # True
-print('result =',result)
-print(id(1),id(True))
+print('result =', result)
+print(id(1), id(True))

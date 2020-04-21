@@ -1,3 +1,38 @@
+a = True
+
+a = not a
+
+a = 1
+a = not a
+
+a = ''
+a = not a
+
+a = True and True
+a = True and False
+a = False and True
+a = False and False
+
+a = True or True
+a = True or False
+a = False or True
+a = False or False
+
+a = 1 and 2
+a = 1 and 0
+a = 0 and None
+
+# a = 1 or 2
+# a = 1 or 0
+# a = 0 or 1
+a = 0 or None
+
+print('a = ', a)
+
+# False or print('你猜')
+
+# True or print('你猜')
+
 # 逻辑运算符
 # 逻辑运算符主要用来做一些逻辑判断
 # not 逻辑非

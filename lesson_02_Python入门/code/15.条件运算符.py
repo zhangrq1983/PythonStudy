@@ -1,3 +1,16 @@
+print('你好') if True else print('Hello')
+
+print('你好') if False else print('Hello')
+
+a = 30
+b = 20
+
+print('a is big') if a > b else print('b is big')
+
+max = a if a > b else b
+
+print(max)
+
 # 条件运算符（三元运算符）
 # 语法： 语句1 if 条件表达式 else 语句2
 # 执行流程：

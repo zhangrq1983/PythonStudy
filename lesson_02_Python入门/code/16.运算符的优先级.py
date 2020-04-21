@@ -1,3 +1,27 @@
+
+a = 40
+b = 50
+c = 30
+
+max = a if a > b else b
+max = max if max > c else c
+
+max = a if (a > b and a > c) else (b if b > c else c)
+
+print(max)
+
+a = 1 + 2 * 3
+
+a = 1 or 2 and 3
+
+a = (1 or 2) and 3
+
+a = 1 < 2 < 3
+
+a = 10 < 20 < 15
+
+print(a)
+
 a = 40
 b = 50
 c = 30
