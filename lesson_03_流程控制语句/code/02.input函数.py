@@ -1,3 +1,17 @@
+
+# a = input('qingshuruneirong:')
+#
+# print('yonghushuruneirong: ' + a)
+
+# username = input('qingshuru username:')
+#
+# if username == 'admin' :
+#     print('欢迎管理员光临！' + username)
+
+
+print('欢迎管理员光临！')
+input('username.....')
+
 # input()函数
 # 该函数用来获取用户的输入
 # input()调用后，程序会立即暂停，等待用户输入
@@ -9,8 +23,8 @@
 # print('用户输入的内容是:',a)
 # input()也可以用于暂时阻止程序结束
 
-# 获取用户输入的用户名
-username = input('请输入你的用户名:')
-# 判断用户名是否是admin
-if username == 'admin' :
-    print('欢迎管理员光临！')
+# # 获取用户输入的用户名
+# username = input('请输入你的用户名:')
+# # 判断用户名是否是admin
+# if username == 'admin' :
+#     print('欢迎管理员光临！')

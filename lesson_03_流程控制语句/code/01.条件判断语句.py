@@ -1,3 +1,27 @@
+
+if True:
+    print('ni cai wo chu lai ma?')
+
+if False:
+    print('ni cai wo chu lai ma?')
+
+num = 11
+if num > 10:
+    print('num > 10')
+    print('111111')
+if num == 10:
+    print('num == 10')
+print('222222')
+if num < 10:
+    print('num < 10')
+
+num = 18
+if num > 10 and num < 20:
+    print(' 20 > num > 10')
+
+if 10 < num < 20:
+    print(' 20 > num > 10')
+
 # 条件判断语句（if语句）
 # 语法：if 条件表达式 : 
 #           代码块

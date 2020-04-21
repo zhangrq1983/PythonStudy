@@ -1,3 +1,28 @@
+
+age = 5
+
+if age > 200:
+    print('活着可真没劲呢！')
+elif age > 100:
+    print('你也是老大不小了！')
+elif age >= 60:
+    print('你已经退休了！')
+elif age >= 30:
+    print('你已经是中年了！')
+elif age >= 18:
+    print('你已经成年了！')
+else:
+    print('你还是个小孩！')
+
+age = 26
+
+if 18 <= age < 30:
+    print('你已经成年了！')
+elif 30 <= age < 60:
+    print('你已经中年了！')
+elif age >= 60:
+    print('你已经退休了！')
+
 # if-elif-else语句
 # 语法：
 #   if 条件表达式 :
