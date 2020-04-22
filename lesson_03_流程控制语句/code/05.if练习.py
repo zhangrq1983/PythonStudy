@@ -1,3 +1,61 @@
+
+# num = int(input('qingshuruzhengshu:'))
+#
+# if num % 2 == 0:
+#     print('zhengshu', num)
+# elif num % 2 == 1:
+#     print('jishu', num)
+
+# year = int(input('qingshurunianfen:'))
+#
+# if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+#     print('runnian', year)
+# else:
+#     print('pingnian', year)
+
+# age = float(input('qingshurunianling:'))
+#
+# like_person_age = 0
+# if age > 0:
+#     if age <= 2:
+#         like_person_age = age * 10.5
+#     else:
+#         like_person_age = 2 * 10.5
+#         like_person_age += (age - 2) * 4
+#     print('like_person_age', like_person_age)
+# else:
+#     print('buhefa')
+
+
+# score = float(input('qingshuruchengji(0-100):'))
+#
+# print('=' * 40)
+#
+# if 100 >= score >= 0:
+#     if score == 100:
+#         print('100')
+#     elif score >= 80:
+#         print('80-100')
+#     elif score >= 60:
+#         print('60-80')
+#     else:
+#         print('nothing')
+# else:
+#     print('buhefa')
+
+
+height = float(input('请输入你的身高(厘米):'))
+money = float(input('请输入你的财富(万):'))
+face = float(input('请输入你的颜值(平方厘米):'))
+
+if height > 180 and money > 1000 and face > 500:
+    print('yi ding jia')
+elif height > 180 or money > 1000 or face > 500:
+    print('jia ba')
+else:
+    print('bu ba')
+
+
 # 练习1：
 #     编写一个程序，获取一个用户输入的整数。然后通过程序显示这个数是奇数还是偶数。
 # 获取用户输入的整数
@@ -105,18 +163,18 @@
 #         如果三个条件都不满足，则:'不嫁！'
 
 # 获取用户的三个数据，身高、财富、颜值
-height = float(input('请输入你的身高(厘米):'))
-money = float(input('请输入你的财富(万):'))
-face = float(input('请输入你的颜值(平方厘米):'))
-
-# 判断到底嫁不嫁
-# 如果这三个条件同时满足，则:'我一定要嫁给他'
-if height > 180 and money > 1000 and face > 500 :
-    print('我一定要嫁给他！')
-# 如果三个条件有为真的情况，则:'嫁吧，比上不足，比下有余。'
-elif height > 180 or money > 1000 or face > 500 :
-    print('嫁吧，比上不足，比下有余。')
-# 如果三个条件都不满足，则:'不嫁！'
-else :
-    print('不嫁！')
+# height = float(input('请输入你的身高(厘米):'))
+# money = float(input('请输入你的财富(万):'))
+# face = float(input('请输入你的颜值(平方厘米):'))
+#
+# # 判断到底嫁不嫁
+# # 如果这三个条件同时满足，则:'我一定要嫁给他'
+# if height > 180 and money > 1000 and face > 500 :
+#     print('我一定要嫁给他！')
+# # 如果三个条件有为真的情况，则:'嫁吧，比上不足，比下有余。'
+# elif height > 180 or money > 1000 or face > 500 :
+#     print('嫁吧，比上不足，比下有余。')
+# # 如果三个条件都不满足，则:'不嫁！'
+# else :
+#     print('不嫁！')
 

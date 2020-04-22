@@ -1,3 +1,30 @@
+
+# i = 0
+# while i < 5:
+#     j = 0
+#     while j < 5:
+#         print('* ', end='')
+#         j += 1
+#     i += 1
+#     print()
+
+i = 0
+while i < 5:
+    i += 1
+    print('* ' * i, end='')
+    print()
+
+i = 0
+while i < 5:
+    j = 0
+    while j < i + 1:
+        print('* ', end='')
+        j += 1
+    print()
+    i += 1
+
+
+
 # 在控制台中打印如下图形
 # *****
 # *****
@@ -30,12 +57,12 @@
 # ***
 # **
 # *
-i = 0
-while i < 5:
-    j = 0
-    while j < i + 1:
-        print("* ",end='')
-        j += 1
-    print()
-    i += 1
+# i = 0
+# while i < 5:
+#     j = 0
+#     while j < i + 1:
+#         print("* ",end='')
+#         j += 1
+#     print()
+#     i += 1
 

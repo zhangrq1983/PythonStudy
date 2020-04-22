@@ -1,3 +1,12 @@
+
+i = 0
+while i < 10:
+    i += 1
+    print(i, 'hello')
+else:
+    print('else:', i, 'hello')
+
+
 # 循环语句
 # 循环语句可以使指定的代码块重复指定的次数
 # 循环语句分成两种，while循环 和 for循环
@@ -28,9 +37,9 @@
 #     i += 1
 
 # 创建一个执行十次的循环
-i = 0
-while i < 10 :
-    i += 1
-    print(i,'hello')
-else :
-    print('else中的代码块')
+# i = 0
+# while i < 10 :
+#     i += 1
+#     print(i,'hello')
+# else :
+#     print('else中的代码块')

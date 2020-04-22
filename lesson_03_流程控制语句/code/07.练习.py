@@ -1,3 +1,36 @@
+
+
+i = 0
+jishu = 0
+sum = 0
+
+# while i < 100:
+#     i += 1
+#     print('i:', i)
+#     sum += i
+#     if i % 2 != 0:
+#         jishu += i
+
+# i = 1
+# while i < 100:
+#     print('i:', i)
+#     sum += i
+#     if i % 2 != 0:
+#         jishu += i
+#     i += 2
+
+i = 7
+jishu = 0
+while i < 100:
+    if i % 7 == 0:
+        sum += i
+        print('i:', i)
+        i += 7
+        jishu += 1
+
+print('sum:', sum)
+print('jishu:', jishu)
+
 # 求100以内所有的奇数之和
 # 获取所有100以内数
 # i = 0
