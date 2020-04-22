@@ -1,3 +1,16 @@
+
+i = 0
+while i < 9:
+    i += 1
+
+    j = 0
+    while j < i:
+        j += 1
+        # print(j, '*', i, '=', j * i, ' ', end='')
+        print(f'{j}*{i}={i*j} ', end='')
+    print()
+
+
 # 练习1：
 #   打印99乘法表
 #   1*1=1
@@ -9,7 +22,7 @@
 i = 0
 while i < 9:
     i += 1
-    
+
     # 创建一个内层循环来控制图形的宽度
     j = 0
     while j < i:
