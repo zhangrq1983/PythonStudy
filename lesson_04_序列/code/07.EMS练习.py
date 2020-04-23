@@ -2,6 +2,7 @@
 print('-'*20, '欢迎使用员工管理系统', '-'*20)
 
 emps = ['孙悟空\t18\t男\t花果山', '猪八戒\t28\t男\t高老庄']
+
 while True:
     print('请选择要做的操作：')
     print('\t1.查询员工')
@@ -9,7 +10,7 @@ while True:
     print('\t3.删除员工')
     print('\t4.退出系统')
     user_choose = input('请选择[1-4]:')
-    print('-'*55)
+    print('-'*62)
 
     if user_choose == '1':
         print('序号\t姓名\t年龄\t性别\t住址')
@@ -19,7 +20,26 @@ while True:
             n += 1
 
     elif user_choose == '2':
-        pass
+        emp_name = input('请输入员工的姓名：')
+        emp_age = input('请输入员工的年龄：')
+        emp_gender = input('请输入员工的性别：')
+        emp_address = input('请输入员工的住址：')
+
+        emp = f'{emp_name}\t{emp_age}\t{emp_gender}\t{emp_address}'
+
+        print('以下员工将被添加到系统中')
+        print('-'*62)
+        print('姓名\t年龄\t性别\t住址')
+        print(emp)
+        print('-'*62)
+        user_confirm = input('是否确认该操作[Y/N]:')
+
+        if user_confirm == 'y' or user_confirm == 'yes' :
+            emps.append(emp)
+            print('添加成功！')
+        else:
+            print('添加已取消！')
+
     elif user_choose == '3':
         del_num = int(input('请输入要删除的员工的序号：'))
 
@@ -46,7 +66,7 @@ while True:
     else:
         print('您的输入有误，请重新选择！')
 
-    print('-'*55)
+    print('-'*62)
 
 
 # # 显示系统的欢迎信息

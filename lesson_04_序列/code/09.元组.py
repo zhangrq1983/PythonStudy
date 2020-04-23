@@ -1,3 +1,50 @@
+
+my_tuple = ()
+print(my_tuple, type(my_tuple))
+
+my_tuple = (1, 2, 3, 4, 5)
+print(my_tuple)
+print(my_tuple[3])
+
+# my_tuple[3] = 3
+
+my_tuple = 10, 20, 30, 40, 50
+my_tuple = 10,
+
+my_tuple = 10, 20, 30, 40
+a, b, c, d = my_tuple
+
+print(a, b, c, d)
+
+a = 100
+b = 300
+
+print(a, b)
+a, b = b, a
+print(a, b)
+
+my_tuple = 10, 20, 30, 40
+a, b, *c = my_tuple
+print(a, b, c)
+
+a, *b, c = my_tuple
+print(a, b, c)
+
+*a, b, c = my_tuple
+print(a, b, c)
+
+# *a, *b, c = my_tuple
+# print(a, b, c)
+
+a, b, *c = [1, 2, 3, 4, 5, 6]
+print(a, b, c)
+
+a, b, *c = 'hello world'
+print(a, b, c)
+
+print(my_tuple, type(my_tuple))
+print()
+
 # 元组 tuple
 # 元组是一个不可变的序列
 # 它的操作的方式基本上和列表是一致的
