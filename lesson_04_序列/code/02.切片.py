@@ -1,3 +1,25 @@
+
+stus = ["孙悟空", '猪八戒', '沙和尚', '唐僧', '蜘蛛精', '白骨精']
+
+print(stus[-2])
+
+print(stus[1:4])
+
+print(stus[1:])
+
+print(stus[:3])
+
+print(stus[:])
+
+print(stus[1:-2])
+
+print(stus[0:5:3])
+
+print(stus[::3])
+
+print(stus[::-1])
+
+
 # 切片
 # 切片指从现有列表中，获取一个子列表
 # 创建一个列表，一般创建列表时，变量的名字会使用复数

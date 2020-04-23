@@ -1,3 +1,26 @@
+
+stus = ['孙悟空', '猪八戒', '沙和尚', '唐僧', '白骨精', '蜘蛛精']
+
+print(stus[0])
+print(stus[1])
+print(stus[2])
+print(stus[3])
+
+print()
+
+i = 0
+while i < len(stus):
+    print(stus[i])
+    i += 1
+
+print()
+
+for v in stus:
+    print(v)
+
+print()
+
+
 # 遍历列表，指的就是将列表中的所有元素取出来
 # 创建列表
 stus = ['孙悟空','猪八戒','沙和尚','唐僧','白骨精','蜘蛛精']

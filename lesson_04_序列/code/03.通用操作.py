@@ -1,3 +1,36 @@
+
+
+list = [1, 2, 3] + [4, 5, 6]
+
+list = [1, 2, 3] * 5
+
+print(list)
+
+print(min(list), max(list))
+
+print(list.index(1))
+
+print(list.count(1))
+
+print()
+
+stus = ["孙悟空", '猪八戒', '沙和尚', '唐僧', '蜘蛛精', '白骨精']
+
+print('唐僧' in stus)
+
+print('牛魔王' in stus)
+
+print('牛魔王' not in stus)
+
+print()
+
+stus = ['孙悟空', '猪八戒', '沙和尚', '唐僧', '蜘蛛精', '白骨精', '沙和尚', '沙和尚']
+
+print(stus.index('沙和尚', 3, 7))
+
+print(stus.count('沙和尚'))
+
+
 # + 和 *
 # +可以将两个列表拼接为一个列表
 my_list = [1,2,3] + [4,5,6]

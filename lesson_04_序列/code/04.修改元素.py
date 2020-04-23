@@ -1,3 +1,42 @@
+
+stus = ['孙悟空', '猪八戒', '沙和尚', '唐僧', '蜘蛛精', '白骨精']
+
+print("修改前：", stus)
+
+stus[0] = 'sunwukong'
+stus[2] = 'haha'
+
+del stus[2]
+
+print(stus)
+print()
+
+stus = ['孙悟空', '猪八戒', '沙和尚', '唐僧', '蜘蛛精', '白骨精']
+
+print("修改前：", stus)
+
+# stus[0:2] = ['niumowang', 'honghaier', 'erlangshen']
+# stus[0:0] = ['niumowang', 'honghaier', 'erlangshen']
+# stus[::2] = ['niumowang', 'honghaier', 'erlangshen']
+# del stus[0:2]
+# del stus[::2]
+stus[1:3] = []
+
+print(stus)
+print()
+
+s = 'hello'
+# s[1] = 'a'
+# print(s[::2])
+print(s)
+
+s = list(s)
+
+print(type(s))
+print(s)
+print()
+
+
 # 创建一个列表
 stus = ['孙悟空','猪八戒','沙和尚','唐僧','蜘蛛精','白骨精']
 

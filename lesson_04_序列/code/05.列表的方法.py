@@ -1,3 +1,43 @@
+
+stus = ['孙悟空', '猪八戒', '沙和尚', '唐僧', '猪八戒']
+print('原列表：', stus)
+
+# stus[3] = 'a'
+# stus.append('b')
+
+# stus.insert(2, 'a')
+
+# stus.extend(['123', '456'])
+
+# stus += ['123', '456']
+
+# stus.clear()
+
+# result = stus.pop(2)
+
+# result = stus.pop()
+# print(result)
+
+# stus.remove('猪八戒')
+
+# result = stus.remove('猪八戒')
+# print(result)
+
+# stus.reverse()
+
+# myList = list('asnbdnbasdabd')
+myList = [10, 1, 20, 3, 4, 5, 0, -2]
+print(myList)
+
+myList.sort()
+myList.sort(reverse=True)
+
+print(myList)
+
+print('xiugaihou：', stus)
+print()
+
+
 # 列表的方法
 stus = ['孙悟空','猪八戒','沙和尚','唐僧']
 # print('原列表：',stus)
