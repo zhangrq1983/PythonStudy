@@ -10,17 +10,22 @@ result = a | a2
 
 result = a - a2
 
+result = a ^ a2
 
+a = {1, 2, 3}
+b = {1, 2, 3, 4, 5}
 
+result = a <= b
 
+result = {1, 2, 3} <= {1, 2, 3}
 
+result = {1, 2, 3, 4, 5} <= {1, 2, 3}
 
+result = {1, 2, 3} < {1, 2, 3}
 
-print('result =',result)
+result = {1, 2, 3} < {1, 2, 3, 4, 5}
 
-
-
-
+print('result =', result)
 
 
 # # 在对集合做运算时，不会影响原来的集合，而是返回一个运算结果
