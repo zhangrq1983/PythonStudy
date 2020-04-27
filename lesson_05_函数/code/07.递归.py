@@ -5,27 +5,56 @@ for i in range(1, 10):
 
 print(n)
 
+# def factorial(n):
+#     '''
+#         该函数用来求任意数的阶乘
+#
+#         参数：
+#             n 要求阶乘的数字
+#     '''
+#     result = n
+#     for i in range(1, n):
+#         result *= i
+#     return result
+
 def factorial(n):
     '''
+        该函数用来求任意数的阶乘
+
+        参数：
+            n 要求阶乘的数字
+    '''
+    if n == 1:
+        return 1
+    return n * factorial(n-1)
+
+result = factorial(10)
+print(result)
+print()
+
+def power(n, i):
+    if i == 1:
+        return n
+    return n * power(n, i-1)
+
+result = power(8, 6)
+print(result)
+print(8 ** 6)
+print()
+
+def hui_wen(s):
+    '''
 
     '''
-    result = n
-    for i in range(1, n):
-        result *= i
-    return result
+    if len(s) < 2:
+        return True
+    # elif s[0] != s[-1]:
+    #     return False
+    # return hui_wen(s[1:-1])
+    return s[0] == s[-1] and hui_wen(s[1:-1])
 
-result = factorial(5)
-print(result)
-
-
-
-
-
-
-
-
-
-
+print(hui_wen('hello'))
+print(hui_wen('abcba'))
 
 
 #
