@@ -1,19 +1,46 @@
 
+a = int(10) # 创建一个int类的实例
+b = str('hello') # 创建一个str类的实例
+
+print(a, type(a))
+print(b, type(b))
+
+a = 10 # 创建一个int类的实例
+b = 'hello' # 创建一个str类的实例
+
+print(a, type(a))
+print(b, type(b))
+
+class MyClass:
+    pass
+
+print(MyClass, type(MyClass))
 
 
+mc = MyClass()
+mc2 = MyClass()
+mc3 = MyClass()
+mc4 = MyClass()
 
+print(mc, type(mc))
+print(mc2, type(mc2))
+print()
 
+result = isinstance(mc, MyClass)
+print(result)
+print()
 
+result = isinstance(mc, str)
+print(result)
+print()
 
+print(id(MyClass), type(MyClass))
+print()
 
-
-
-
-
-
-
-
-
+mc.name = 'swk'
+mc2.name = 'zbj'
+print(mc.name)
+print(mc2.name)
 
 
 # a = int(10) # 创建一个int类的实例
