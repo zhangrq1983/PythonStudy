@@ -1,13 +1,41 @@
 
+class Dog:
+    """
+        This is Dog.class
+    """
+    def __init__(self, name, age):
+        self.hidden_name = name
+        self.hidden_age = age
 
+    def say_hello(self):
+        print('da jia hao,wo shi %s' % self.hidden_name)
 
+    def get_name(self):
+        return self.hidden_name
 
+    def set_name(self, name):
+        self.hidden_name = name
 
+    def get_age(self):
+        return self.hidden_age
 
+    def set_age(self, age):
+        if age > 0:
+            self.hidden_age = age
 
+d = Dog('wangcai', 8)
+d.name = 'xiao hei'
+d.say_hello()
+print()
 
+d.set_name(123)
+print(d.get_name())
 
+d.say_hello()
 
+d.set_age(-10)
+print(d.get_age())
+print()
 
 
 
@@ -34,43 +62,43 @@
 #       可以在读取属性和修改属性的同时做一些其他的处理
 #   5.使用getter方法可以表示一些计算的属性
 
-class Dog:
-    '''
-        表示狗的类
-    '''
-    def __init__(self , name , age):
-        self.hidden_name = name
-        self.hidden_age = age
-
-    def say_hello(self):
-        print('大家好，我是 %s'%self.hidden_name) 
-
-    def get_name(self):
-        '''
-            get_name()用来获取对象的name属性
-        '''    
-        # print('用户读取了属性')
-        return self.hidden_name
-
-    def set_name(self , name):
-        # print('用户修改了属性')
-        self.hidden_name = name
-
-    def get_age(self):
-        return self.hidden_age
-
-    def set_age(self , age):
-        if age > 0 :
-            self.hidden_age = age    
-
-
-d = Dog('旺财',8)
-
-# d.say_hello()
-
-# 调用setter来修改name属性 
-d.set_name('小黑')
-d.set_age(-10)
-
-# d.say_hello()
-print(d.get_age())
+# class Dog:
+#     '''
+#         表示狗的类
+#     '''
+#     def __init__(self , name , age):
+#         self.hidden_name = name
+#         self.hidden_age = age
+#
+#     def say_hello(self):
+#         print('大家好，我是 %s'%self.hidden_name)
+#
+#     def get_name(self):
+#         '''
+#             get_name()用来获取对象的name属性
+#         '''
+#         # print('用户读取了属性')
+#         return self.hidden_name
+#
+#     def set_name(self , name):
+#         # print('用户修改了属性')
+#         self.hidden_name = name
+#
+#     def get_age(self):
+#         return self.hidden_age
+#
+#     def set_age(self , age):
+#         if age > 0 :
+#             self.hidden_age = age
+#
+#
+# d = Dog('旺财',8)
+#
+# # d.say_hello()
+#
+# # 调用setter来修改name属性
+# d.set_name('小黑')
+# d.set_age(-10)
+#
+# # d.say_hello()
+# print(d.get_age())
