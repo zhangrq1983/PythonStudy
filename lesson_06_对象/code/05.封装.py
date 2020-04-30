@@ -11,9 +11,11 @@ class Dog:
         print('da jia hao,wo shi %s' % self.hidden_name)
 
     def get_name(self):
+        print('用户读取了属性')
         return self.hidden_name
 
     def set_name(self, name):
+        print('用户修改了属性')
         self.hidden_name = name
 
     def get_age(self):
@@ -32,16 +34,11 @@ d.set_name(123)
 print(d.get_name())
 
 d.say_hello()
+print()
 
 d.set_age(-10)
 print(d.get_age())
 print()
-
-
-
-
-
-
 
 
 # 封装是面向对象的三大特性之一
