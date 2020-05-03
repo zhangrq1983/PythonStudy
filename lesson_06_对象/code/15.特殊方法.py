@@ -11,39 +11,40 @@ class Person(object):
     def __repr__(self):
         return 'Hello'
 
-        # object.__add__(self, other)
-
-    # object.__sub__(self, other)
-    # object.__mul__(self, other)
-    # object.__matmul__(self, other)
-    # object.__truediv__(self, other)
-    # object.__floordiv__(self, other)
-    # object.__mod__(self, other)
-    # object.__divmod__(self, other)
-    # object.__pow__(self, other[, modulo])
-    # object.__lshift__(self, other)
-    # object.__rshift__(self, other)
-    # object.__and__(self, other)
-    # object.__xor__(self, other)
-    # object.__or__(self, other)
-
-    # object.__lt__(self, other) 小于 <
-    # object.__le__(self, other) 小于等于 <=
-    # object.__eq__(self, other) 等于 ==
-    # object.__ne__(self, other) 不等于 !=
-    # object.__gt__(self, other) 大于 >
-    # object.__ge__(self, other) 大于等于 >=
-
-    # __len__()获取对象的长度
-
+    #     # object.__add__(self, other)
+    #
+    # # object.__sub__(self, other)
+    # # object.__mul__(self, other)
+    # # object.__matmul__(self, other)
+    # # object.__truediv__(self, other)
+    # # object.__floordiv__(self, other)
+    # # object.__mod__(self, other)
+    # # object.__divmod__(self, other)
+    # # object.__pow__(self, other[, modulo])
+    # # object.__lshift__(self, other)
+    # # object.__rshift__(self, other)
+    # # object.__and__(self, other)
+    # # object.__xor__(self, other)
+    # # object.__or__(self, other)
+    #
+    # # object.__lt__(self, other) 小于 <
+    # # object.__le__(self, other) 小于等于 <=
+    # # object.__eq__(self, other) 等于 ==
+    # # object.__ne__(self, other) 不等于 !=
+    # # object.__gt__(self, other) 大于 >
+    # # object.__ge__(self, other) 大于等于 >=
+    #
+    # # __len__()获取对象的长度
+    #
     # object.__bool__(self)
     # 可以通过bool来指定对象转换为布尔值的情况
     def __bool__(self):
-        return self.age > 17
+        # return False
+        return self.age >= 18
 
-    # __gt__会在对象做大于比较的时候调用，该方法的返回值将会作为比较的结果
-    # 他需要两个参数，一个self表示当前对象，other表示和当前对象比较的对象
-    # self > other
+    # # __gt__会在对象做大于比较的时候调用，该方法的返回值将会作为比较的结果
+    # # 他需要两个参数，一个self表示当前对象，other表示和当前对象比较的对象
+    # # self > other
     def __gt__(self, other):
         return self.age > other.age
 
@@ -52,14 +53,35 @@ class Person(object):
 p1 = Person('孙悟空', 18)
 p2 = Person('猪八戒', 28)
 
+print(p1)
+print(p2)
+print()
 
+print(str(p1))
+print(str(p2))
+print()
 
+print(repr(p1))
+print(repr(p2))
+print()
 
+print(p1 > p2)
+print(p2 > p1)
+print()
 
+print(bool(p1))
+print(bool(p2))
+print()
 
+if p1:
+    print(p1.name, 'cheng nian le')
+else:
+    print(p1.name, 'wei cheng nian')
 
+print()
 
-
+t = 1, 2, 3
+print(t)
 
 
 # # 特殊方法，也称为魔术方法
