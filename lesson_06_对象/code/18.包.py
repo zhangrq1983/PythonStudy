@@ -1,10 +1,18 @@
 
+import hello
 
+print(hello)
 
+print(hello.aa)
+print(hello.bb)
+hello.test()
 
+from hello import a, b
 
-
-
+print(a)
+print(b)
+print(a.c)
+print(b.d)
 
 
 # # 包 Package
