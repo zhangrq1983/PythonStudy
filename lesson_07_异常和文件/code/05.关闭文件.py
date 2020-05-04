@@ -1,3 +1,39 @@
+
+# 打开文件
+file_name = 'demo.txt'
+
+# file_obj = open(file_name)
+#
+# content = file_obj.read()
+#
+# print(content)
+#
+# file_obj.close()
+
+# with ... as 语句
+# with open(file_name) as file_obj:
+#     print(file_obj.read())
+
+# print(file_obj.read())
+
+file_name = 'hello.123'
+
+try:
+    with open(file_name) as file_obj:
+        print(file_obj.read())
+except FileNotFoundError:
+    print(f'{file_name} 文件不存在~~')
+
+
+
+
+
+
+
+
+
+
+
 # 打开文件
 file_name = 'demo.txt'
 
@@ -22,13 +58,13 @@ file_name = 'demo.txt'
 #     print(file_obj.read())
 
 
-file_name = 'hello'
-
-try:
-    with open(file_name) as file_obj :
-        print(file_obj.read())
-except FileNotFoundError:
-    print(f'{file_name} 文件不存在~~')
+# file_name = 'hello'
+#
+# try:
+#     with open(file_name) as file_obj :
+#         print(file_obj.read())
+# except FileNotFoundError:
+#     print(f'{file_name} 文件不存在~~')
 
 
 

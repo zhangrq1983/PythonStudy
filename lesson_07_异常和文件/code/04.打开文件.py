@@ -1,3 +1,19 @@
+
+# open(file, mode='r', buffering=-1, encoding_=None, errors=None, newline=None, closefd=True, opener=None)
+
+file_name = 'demo.txt'
+# file_name = 'hello\\demo.txt'
+# file_name = r'hello\demo.txt'
+
+file_name = '../hello/demo.txt'
+
+# file_name = r'C:\Users\lilichao\Desktop\hello.txt'
+
+file_obj = open(file_name) # 打开 file_name 对应的文件
+
+print(file_obj)
+
+
 # open(file, mode='r', buffering=-1, encoding_=None, errors=None, newline=None, closefd=True, opener=None)
 # 使用open函数来打开一个文件
 # 参数：
