@@ -5,7 +5,8 @@ from lxml import etree
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'}
 url = 'http://maoyan.com/board/4?offset=1'
-response = requests.get(url, headers=headers)
+# response = requests.get(url, headers=headers)
+response = requests.get(url, headers)
 print(response.text)
 
 
