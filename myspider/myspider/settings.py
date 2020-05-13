@@ -15,6 +15,7 @@ SPIDER_MODULES = ['myspider.spiders']
 NEWSPIDER_MODULE = 'myspider.spiders'
 
 LOG_LEVEL = 'WARNING'
+# LOG_FILE = './log.log'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'myspider (+http://www.yourdomain.com)'
@@ -68,7 +69,7 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'myspider.pipelines.MyspiderPipeline': 300,
-    'myspider.pipelines.MyspiderPipeline1': 301,
+    # 'myspider.pipelines.MyspiderPipeline1': 301,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
