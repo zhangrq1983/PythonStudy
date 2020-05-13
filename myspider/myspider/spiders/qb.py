@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import logging
+# from scrapy.utils.project import get_project_settings
 
 logger = logging.getLogger(__name__)
 
@@ -11,6 +12,16 @@ class QbSpider(scrapy.Spider):
     start_urls = ['https://www.qiushibaike.com/text/']
 
     def parse(self, response):
+        # settings = get_project_settings()
+        # MYSQL_HOST = settings.get("MYSQL_HOST")
+        # print(MYSQL_HOST)
+
+        # print(self.settings['MYSQL_HOST'], '*'*10)
+        # print(self.settings['MYSQL_USER'], '*'*10)
+
+        # print(id(self), 'qb')
+
+        # print(self.hello)
 
         div_list = response.xpath('//div[@class="content"]/span')
 
@@ -22,13 +33,13 @@ class QbSpider(scrapy.Spider):
             # logging.warning(item)
             yield item
 
-        next_url = response.xpath('//span[@class="next"]/../@href').extract_first()
-        # logging.warning(next_url)
-
-        if next_url is not None:
-            next_url = "https://www.qiushibaike.com" + next_url
-            # logging.warning(next_url)
-            yield scrapy.Request(
-                next_url,
-                callback=self.parse
-            )
+        # next_url = response.xpath('//span[@class="next"]/../@href').extract_first()
+        # # logging.warning(next_url)
+        #
+        # if next_url is not None:
+        #     next_url = "https://www.qiushibaike.com" + next_url
+        #     # logging.warning(next_url)
+        #     yield scrapy.Request(
+        #         next_url,
+        #         callback=self.parse
+        #     )

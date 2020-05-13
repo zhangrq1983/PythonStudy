@@ -14,6 +14,10 @@ BOT_NAME = 'myspider'
 SPIDER_MODULES = ['myspider.spiders']
 NEWSPIDER_MODULE = 'myspider.spiders'
 
+MYSQL_HOST = 'localhost'
+MYSQL_USER = 'root'
+MYSQL_PWD = 'root'
+
 LOG_LEVEL = 'WARNING'
 # LOG_FILE = './log.log'
 
