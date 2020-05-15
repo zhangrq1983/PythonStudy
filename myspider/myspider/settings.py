@@ -18,7 +18,7 @@ MYSQL_HOST = 'localhost'
 MYSQL_USER = 'root'
 MYSQL_PWD = 'root'
 
-LOG_LEVEL = 'WARNING'
+# LOG_LEVEL = 'WARNING'
 # LOG_FILE = './log.log'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -37,6 +37,8 @@ ROBOTSTXT_OBEY = True
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16
+
+COOKIES_DEBUG = True
 
 # Disable cookies (enabled by default)
 # COOKIES_ENABLED = False
@@ -59,9 +61,11 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'myspider.middlewares.MyspiderDownloaderMiddleware': 543,
-# }
+DOWNLOADER_MIDDLEWARES = {
+   # 'myspider.middlewares.MyspiderDownloaderMiddleware': 543,
+   'myspider.middlewares.RandomUserAgent': 544,
+   'myspider.middlewares.CheckUserAgent': 545,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -96,3 +100,6 @@ ITEM_PIPELINES = {
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+USER_AGENTS = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+               'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0']
