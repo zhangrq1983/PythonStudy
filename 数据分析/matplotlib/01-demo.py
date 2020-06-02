@@ -13,6 +13,6 @@ plt.xticks(_x)
 
 plt.yticks(range(min(y), max(y) + 1))
 
-plt.savefig('./01-demo.png')
+# plt.savefig('./01-demo.png')
 
 plt.show()
